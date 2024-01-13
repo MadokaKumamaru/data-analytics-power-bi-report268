@@ -2,4 +2,4 @@
 SELECT country_code, SUM(staff_numbers) AS total_staff_numbers
 FROM dim_store
 GROUP BY country_code
-HAVING country_code = 'GB'
+HAVING country_code = 'GB';
