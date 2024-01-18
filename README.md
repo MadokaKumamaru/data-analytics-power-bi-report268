@@ -44,10 +44,10 @@ After all these six tables were imported, sollowing relationships were created t
 1. Orders[product_code] to Products[product_code]
 2. Orders[Store Code] to Stores[store code]
 3. Orders[User ID] to Customers[User UUID]
-4. Orders[Order Date] to Date[date]
-5. Orders[Shipping Date] to Date[date]
-All of the above relationships are one-to-many and Orders[Order Date] to Date[date] was set to be the
-active relationship over Orders[Shipping Date] to Date[date].
+4. Orders[Order Date] to Dates[date]
+5. Orders[Shipping Date] to Dates[date]
+All of the above relationships are one-to-many and Orders[Order Date] to Dates[date] was set to be the
+active relationship over Orders[Shipping Date] to Dates[date].
 
 
 ## Report Pages
